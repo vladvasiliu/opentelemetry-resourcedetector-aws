@@ -9,7 +9,7 @@ pub struct AwsResource {}
 impl AwsResource {}
 
 impl ResourceDetector for AwsResource {
-    fn detect(&self, timeout: Duration) -> Resource {
+    fn detect(&self, _timeout: Duration) -> Resource {
         todo!()
     }
 }
